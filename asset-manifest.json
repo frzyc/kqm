@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.2f62d882.js",
+    "static/js/787.2437b1a2.chunk.js": "/static/js/787.2437b1a2.chunk.js",
+    "static/media/backbanner.jpg": "/static/media/backbanner.b085fb212193adcd8ad3.jpg",
+    "static/media/KamisatoAyato.png": "/static/media/KamisatoAyato.7c5dda02a9183aab8262.png",
+    "static/media/new_ayato.png": "/static/media/new_ayato.41efb3b9d5d639f50d59.png",
+    "static/media/new_yelan.png": "/static/media/new_yelan.99c255a21b56000f0849.png",
+    "static/media/new_info.png": "/static/media/new_info.79583dfe375f325c1c20.png",
+    "static/media/logo.png": "/static/media/logo.d199c7afff507f6ce2ab.png",
+    "static/media/icon_polearm.png": "/static/media/icon_polearm.e5f4a2a17edcf4ddec4d.png",
+    "static/media/icon_sword.png": "/static/media/icon_sword.619c9c2d2c38eb90e342.png",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.2f62d882.js.map": "/static/js/main.2f62d882.js.map",
+    "787.2437b1a2.chunk.js.map": "/static/js/787.2437b1a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2f62d882.js"
+  ]
+}
