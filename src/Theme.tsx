@@ -7,6 +7,7 @@ declare module '@mui/material/styles' {
     lightStroke: Palette['primary'];
     typoLight: Palette['primary'];
     kqmLight: Palette['primary'];
+    white: Palette['primary'];
   }
   interface PaletteOptions {
     backLight?: PaletteOptions['primary'];
@@ -14,12 +15,14 @@ declare module '@mui/material/styles' {
     lightStroke?: PaletteOptions['primary'];
     typoLight?: PaletteOptions['primary'];
     kqmLight?: PaletteOptions['primary'];
+    white?: PaletteOptions['primary'];
   }
 }
 
 declare module "@mui/material/Button" {
   interface ButtonPropsColorOverrides {
     kqmLight: true;
+    white: true;
   }
 }
 const defaultTheme = createTheme({
@@ -52,8 +55,23 @@ export const theme = createTheme({
       color: { main: '#D19FF8' },
       name: "kqmLight"
     }),
+    white: defaultTheme.palette.augmentColor({
+      color: { main: '#FFFFFF' },
+      name: "white"
+    }),
 
-
+  },
+  typography: {
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
   },
   components: {
     MuiCardContent: {
